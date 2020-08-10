@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="855" viewBox="0 0 1920 855">
+  <defs>
+    <radialGradient id="radial-gradient" cx="1025.313" cy="877.23" r="4225.906" gradientTransform="translate(568.728 616.294) scale(0.445 0.297)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#238187"/>
+      <stop offset="0.055" stop-color="#207278"/>
+      <stop offset="0.201" stop-color="#1a5258"/>
+      <stop offset="0.353" stop-color="#15393f"/>
+      <stop offset="0.51" stop-color="#11282d"/>
+      <stop offset="0.675" stop-color="#0f1d22"/>
+      <stop offset="0.864" stop-color="#0f1a1f"/>
+    </radialGradient>
+  </defs>
+  <rect id="Rectangle_148" data-name="Rectangle 148" width="1920" height="855" fill="url(#radial-gradient)"/>
+</svg>

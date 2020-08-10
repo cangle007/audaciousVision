@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="25" cy="25" r="25" transform="translate(1620 4416)" fill="#00aee0"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-1620 -4416)" clip-path="url(#clip-path)">
+    <g id="facebook-logo-button" transform="translate(1620 4416)">
+      <g id="Group_34" data-name="Group 34">
+        <path id="Path_4" data-name="Path 4" d="M25,0A25,25,0,1,0,50,25,25.028,25.028,0,0,0,25,0Zm6.217,25.88H27.15v14.5H21.123V25.88H18.258V20.756h2.865V17.442c0-2.374,1.128-6.082,6.082-6.082l4.466.017v4.974H28.43a1.227,1.227,0,0,0-1.278,1.4v3.011h4.592Z" fill="#00aee0"/>
+      </g>
+    </g>
+  </g>
+</svg>

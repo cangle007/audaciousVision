@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="25" cy="25" r="25" transform="translate(1425 4416)" fill="#00aee0"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(-1425 -4416)" clip-path="url(#clip-path)">
+    <g id="linkedin-logo" transform="translate(1425 4416)">
+      <path id="Path_8" data-name="Path 8" d="M25,0A25,25,0,1,0,50,25,25,25,0,0,0,25,0ZM15.633,41.926H8.6V19.314h7.028Zm-3.513-25.7a4.075,4.075,0,1,1,4.073-4.076A4.076,4.076,0,0,1,12.12,16.223Zm29.835,25.7H34.933v-11c0-2.623-.049-6-3.653-6-3.655,0-4.217,2.856-4.217,5.806V41.926H20.04V19.314h6.741V22.4h.095a7.384,7.384,0,0,1,6.65-3.652c7.117,0,8.43,4.683,8.43,10.772v12.4Z" fill="#00aee0"/>
+    </g>
+  </g>
+</svg>

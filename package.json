@@ -1,18 +1,34 @@
 {
-  "name": "hue_network",
+  "name": "audacious_vision",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "node-sass-chokidar": "^1.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
   },
   "scripts": {
+    "clean": "rm -rf dist && rm -rf build",
+    "distclean": "npm run clean && rm -rf node_modules",
+    "build-css": "node-sass-chokidar src/ -o src/scss/out",
+    "watch-css": "npm run build-css -- --watch --recursive",
+    "prebuild": "npm run clean",
+    "build": "npm run build-css && GENERATE_SOURCEMAP=false react-scripts build && mv build dist",
+    "local": "npm run watch-css & react-scripts start",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

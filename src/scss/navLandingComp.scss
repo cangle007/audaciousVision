@@ -1,0 +1,32 @@
+@import './variables';
+
+.navLanding-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 100%;
+
+  div {
+    font-size: $font-size-l;
+    font-weight: bold;
+  }
+
+  #routeSignUp-item {
+    button {
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 500;
+      line-height: 1;
+      white-space: nowrap;
+      background-color: $btn-primary-color;
+      color: $color-white;
+      border: none;
+      padding: 11px 18px;
+    }
+  }
+}

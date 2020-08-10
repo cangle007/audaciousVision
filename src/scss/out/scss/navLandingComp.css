@@ -1,0 +1,23 @@
+.navLanding-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 100%; }
+  .navLanding-container div {
+    font-size: large;
+    font-weight: bold; }
+  .navLanding-container #routeSignUp-item button {
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+    background-color: #0060fc;
+    color: #ffffff;
+    border: none;
+    padding: 11px 18px; }

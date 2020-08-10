@@ -1,0 +1,55 @@
+@import './variables';
+
+.bannerMain-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-position: center center;
+  background-image: url(../../../images/thinkerBg.svg);
+  background-size: cover;
+  overflow: hidden;
+  min-height: 100vh;
+  max-height: 999px;
+  width: 100%;
+  text-align: center;
+
+  // .filter::after {
+  //   display: block;
+  //   content: '';
+  //   position: absolute;
+  //   left: 0;
+  //   top: 0;
+  //   background-color: rgba(0, 0, 0, 0.5);
+  //   height: 100%;
+  //   width: 100%;
+  // }
+
+  #bannerMsg-item {
+    width: 700px;
+
+    h1 {
+      font-size: 5.5em;
+    }
+
+    h3 {
+      line-height: 30px;
+    }
+
+    #bannerBtn {
+      margin: 30px;
+
+      button {
+        border-radius: 8px;
+        text-align: center;
+        font-weight: 500;
+        white-space: nowrap;
+        background-color: $btn-primary-color;
+        color: $color-white;
+        border: none;
+        padding: 13px 26px;
+      }
+    }
+  }
+}
