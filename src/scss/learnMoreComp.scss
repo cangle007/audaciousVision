@@ -1,0 +1,36 @@
+@import './variables';
+
+.learnMore-container {
+  h2 {
+    color: #00aee0;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    color: $link-primary-color;
+    font-weight: bold;
+
+    img {
+      margin-left: 10px;
+      width: 20px;
+      color: $link-primary-color;
+    }
+  }
+
+  #reflections-item,
+  #goals-item,
+  #ideas-item {
+    display: flex;
+    align-items: center;
+  }
+
+  #reflections-item {
+    flex-direction: row;
+  }
+  #goals-item {
+    flex-direction: row-reverse;
+  }
+  #ideas-item {
+    flex-direction: row;
+  }
+}

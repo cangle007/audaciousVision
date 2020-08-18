@@ -1,4 +1,5 @@
 import React from 'react';
+
 import NavLandingComp from './NavLandingComp';
 
 export default function BannerComp() {

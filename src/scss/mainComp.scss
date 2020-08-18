@@ -1,0 +1,26 @@
+#main-container {
+  display: grid;
+  grid-template-areas:
+    'bannerComp-item'
+    'sliderComp-item'
+    'learnMoreComp-item'
+    'signUpComp-item';
+  grid-row-gap: 100px;
+
+  #bannerComp-item {
+    grid-area: bannerComp-item;
+  }
+
+  #sliderComp-item {
+    grid-area: sliderComp-item;
+  }
+
+  #learnMoreComp-item {
+    grid-area: learnMoreComp-item;
+  }
+
+  #signUpComp-item {
+    grid-area: signUpComp-item;
+    justify-self: center;
+  }
+}

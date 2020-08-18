@@ -1,13 +1,14 @@
 import React from 'react';
+
 import AVLogo from '../../images/AVLogo.png';
 import facebook from '../../images/icons/facebook.svg';
-import gmail from '../../images/icons/gmail.svg';
-import microsoft from '../../images/icons/microsoft.svg';
-import youtube from '../../images/icons/youtube.svg';
-import linkedin from '../../images/icons/linkedin.svg';
-import twitter from '../../images/icons/twitter.svg';
-import instagram from '../../images/icons/instagram.svg';
 import facebookFooter from '../../images/icons/facebookFooter.svg';
+import gmail from '../../images/icons/gmail.svg';
+import instagram from '../../images/icons/instagram.svg';
+import linkedin from '../../images/icons/linkedin.svg';
+import microsoft from '../../images/icons/microsoft.svg';
+import twitter from '../../images/icons/twitter.svg';
+import youtube from '../../images/icons/youtube.svg';
 
 export default function SignUpComp() {
   return (

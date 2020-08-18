@@ -1,16 +1,21 @@
 import React from 'react';
+
+import BannerComp from './BannerComp';
+import LearnMoreComp from './LearnMoreComp';
 import MainComp from './MainComp';
 import NavLandingComp from './NavLandingComp';
-import BannerComp from './BannerComp';
 import SignUpComp from './SignUpComp';
+import SliderComp from './SliderComp';
 
 export default function MainPage({ history }) {
   return (
     <div>
-      {/* <BannerComp /> */}
-      {/* <NavLandingComp history={history} /> */}
-      {/* <MainComp history={history} /> */}
+      <MainComp history={history} />
+      {/* <BannerComp />
+      <NavLandingComp history={history} />
       <SignUpComp />
+      <SliderComp history={history} />
+      <LearnMoreComp /> */}
     </div>
   );
 }

@@ -1,0 +1,21 @@
+@import '~react-image-gallery/styles/css/image-gallery.css';
+@import './variables';
+
+#sliderComp-container {
+  text-align: center;
+
+  h1 {
+    font-size: 50px;
+    color: #00aee0;
+  }
+
+  #capture-details-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+
+    img {
+      width: 60px;
+    }
+  }
+}
