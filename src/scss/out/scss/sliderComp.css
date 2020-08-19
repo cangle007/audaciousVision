@@ -7,6 +7,7 @@
   #sliderComp-container #capture-details-item {
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px; }
+    padding-bottom: 50px;
+    margin: 0 150px; }
     #sliderComp-container #capture-details-item img {
       width: 60px; }

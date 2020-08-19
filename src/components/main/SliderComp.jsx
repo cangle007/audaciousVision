@@ -88,6 +88,7 @@ export default function SliderComp() {
           </p>
         </section>
       </div>
+
       <ImageGallery
         items={sliderIMGs}
         lazyLoad={false}

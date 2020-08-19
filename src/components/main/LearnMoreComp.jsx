@@ -60,6 +60,32 @@ export default function LearnMoreComp() {
 
         <img src={ideas} alt='ideas' />
       </div>
+
+      <div id='ourStory-item'>
+        <h1>Our Story</h1>
+        <h2>Reflection Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Arcu non sodales neque sodales ut
+          etiam sit amet.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Arcu non sodales neque sodales ut
+          etiam sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non sodales
+          neque sodales ut etiam sit amet.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Arcu non sodales neque sodales ut
+          etiam sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non sodales
+          neque sodales ut etiam sit amet. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Arcu non sodales neque sodales ut etiam sit amet.
+        </p>
+      </div>
     </div>
   );
 }
